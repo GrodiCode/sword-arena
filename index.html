@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sword Arena</title>
+  <style>
+    html, body { margin: 0; overflow: hidden; background: #181818; }
+    canvas { display: block; margin: auto; background: radial-gradient(circle at center, #202020, #101010); }
+    #score {
+      position: absolute;
+      top: 10px; left: 10px;
+      color: white; font-family: sans-serif; font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="score">Swords: 1</div>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
